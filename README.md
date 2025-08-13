@@ -33,7 +33,7 @@ We use the [Financial PhraseBank](https://www.kaggle.com/datasets/sbhatti/financ
 
 ## Models Used
 
-- **Gemma**: A small language model suitable for free-tier Colab usage.
+- **gemma-2-2b**: A small language model suitable for free-tier Colab usage.
 - **BERT**: Pretrained transformer model (e.g., DistilBERT or FinBERT).
 - **GPT**: Small GPT variant (e.g., GPT-2 or similar SLM).
 
@@ -44,7 +44,7 @@ We use the [Financial PhraseBank](https://www.kaggle.com/datasets/sbhatti/financ
 - scikit-learn
 - torch
 - transformers (for BERT, GPT)
-- Gemma library (if available)
+- Gemma library (huggingface transformers)
 
 Install requirements with:
 
